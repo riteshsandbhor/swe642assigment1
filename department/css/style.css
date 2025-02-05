@@ -1,0 +1,235 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+  .text-gmu-#006633 {
+    color: #006633;
+  }
+ 
+.text-gmu-#006633 {
+    color: #006633;
+}
+
+header {
+    background-color: #ffffff;
+    border: 5px solid #006633;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #006633;
+}
+
+.btn-warning {
+    background-color: #FFCC33;
+    border-color: #FFCC33;
+    color: #000;
+}
+
+.btn-warning:hover {
+    background-color: #e6b800;
+    border-color: #e6b800;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #006633;
+    color: white;
+}
+
+table td, table th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Styling the card */
+.card {
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling the button */
+  .btn-green {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color: #006633;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-green:hover {
+    background-color: #FFCC33;
+  }
+  
+
+  .btn-primary {
+    background-color: #006633;
+    border-color: #006633;
+  }
+  
+  .btn-primary:hover {
+    background-color: #FFCC33;
+    border-color: #FFCC33;
+  }
+
+  /* Change the radio button color */
+.form-check-input:checked {
+    background-color: #006633;
+    border-color: #006633;
+  }
+  
+  .form-check-input:checked:hover {
+    background-color: #FFCC33;
+    border-color: #FFCC33;
+  }
+  
+  /* Change the checkbox color */
+  .form-check-input:checked {
+    background-color: #006633;
+    border-color: #006633;
+  }
+  
+  .form-check-input:checked:hover {
+    background-color: #FFCC33;
+    border-color: #FFCC33;
+  }
+  
+  /* Change the focus color for both radio and checkbox */
+  .form-check-input:focus {
+    border-color: #006633;
+    box-shadow: 0 0 0 0.2rem rgba(0, 128, 0, 0.25);
+  }
+  
+  /* Change the color of the radio and checkbox when not checked */
+  .form-check-input {
+    border-color: #006633;
+  }
+  
+ /* Navbar Customization */
+ .navbar-logo {
+    height: 40px; /* Adjust the height according to your image size */
+    width: auto;  /* Ensure the width adjusts automatically to maintain the aspect ratio */
+  }
+  /* Change the background color of the navbar to Green (#006633) */
+  .navbar {
+    background-color:  #006633 !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+  
+  /* Change the color of links in the navbar to Yellow (#FFCC33) */
+  .navbar-nav .nav-link {
+    color: #FFCC33 !important; /* Ensures the text is yellow */
+  }
+  
+  .navbar-nav  {
+    color: #FFCC33 !important; /* Darker yellow on hover */
+  }
+  .nav-link:hover{
+    color: #FFCC33 !important;
+
+  }
+  /* Change the background color of the navbar when it is in focus or active */
+  .navbar-light .navbar-toggler-icon {
+    background-color: #006633;
+  }
+  
+  /* Optional: Change the color of the brand/logo to Yellow (#FFCC33) */
+  .navbar-brand {
+    color: #FFCC33 !important;
+  }
+  
+  .navbar-brand:hover {
+    color: #FFD700 !important;
+  }
+ 
+
+  /* Table Caption Style */
+.table caption {
+    color: #FFCC33; /* Golden color for caption */
+    font-weight: bold;
+  }
+  
+  /* Table Header Style */
+  .table thead th {
+    background-color: #006633; /* GMU Green background */
+    color: #FFCC33; /* Golden color for header text */
+  }
+  
+  /* Table Row Style */
+  .table tbody tr {
+    background-color: #f8f8f8; /* Light background for rows */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e1e1e1; /* Light hover effect for rows */
+  }
+  
+  /* Table Cell Text Color */
+  .table td, .table th {
+    color: #006633; /* Green color for text */
+  }
+  
+  /* Alternative row styling for better readability */
+  .table tbody tr:nth-child(even) {
+    background-color: #f0f0f0; /* Slightly darker shade for even rows */
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+  }
+  
+
+
+
+  /* Body background color */
+  body {
+    background-color: #f0f0f0;
+    padding-top: 80px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* GMU Green Heading Style */
+h1 {
+    color:  #006633;
+    font-size: 2.5rem;
+}
+
+/* Rectangular box around heading with GMU Green border and box-shadow */
+.header-box {
+    border: 5px solid  #006633;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 102, 51, 0.3);
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Custom class for other elements */
+.custom-style {
+    background-color: #FFCC33;
+    color:  #006633;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 102, 51, 0.3);
+}
+

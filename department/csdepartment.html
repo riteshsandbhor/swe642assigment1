@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CS Department - GMU</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+  <body background="./images/back.jpg">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./images/gmulogo.png"
+            alt="CS Department"
+            class="navbar-logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./csdepartment.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./survey.html">Survey Form</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-4">
+      <header
+        style="background-color: #ffd700"
+        class="text-center border border-5 p-3 mb-4 shadow"
+      >
+        <h1 class="text-gmu-green">Computer Science Department</h1>
+      </header>
+
+      <div class="card" style="background-color: #f0f0f0">
+        <section id="about">
+          <h2>About the Department</h2>
+          <p>
+            Wsith nearly 80 full-time faculty members, the CS Department at
+            Mason is the largest department in the College of Engineering and
+            Computing, one of the largest departments on campus, and the
+            largest, fastest growing, and highest ranked Computer Science
+            department in the Commonwealth of Virginia. Today, not only is
+            computing pervasive in society, but computational methods are used
+            in almost every field of scholarly endeavor ranging from the arts
+            and humanities to the hard sciences and engineering, as well as
+            every sector of industry. Given the importance of computing in
+            today's world, we strongly support the goal of "Computing for All",
+            providing a diverse array of programs and courses in computing to
+            students from all backgrounds and at all levels. The department
+            offers two Bachelor of Science programs with a total enrollment of
+            over 2200 students: the B.S. in Computer Science and the
+            inter-disciplinary B.S. in Applied Computer Science; four M.S.
+            programs in Computer Science, Information Systems, Information
+            Security and Assurance, and Software Engineering with a total
+            enrollment of almost 1000 students; and a Ph.D. program in Computer
+            Science with nearly 200 students. The department's faculty also
+            teach and participate in the inter-disciplinary M.S. in Data
+            Analytics Engineering and the Ph.D. in Information Technology
+            offered by the Volgenau School of Engineering.
+          </p>
+        </section>
+
+        <section id="programs">
+          <h2>MS Degree Programs</h2>
+          <ul>
+            <li>MS in Computer Science</li>
+            <li>MS in Information Security and Assurance</li>
+            <li>MS in Software Engineering</li>
+          </ul>
+        </section>
+
+        <section id="courses">
+          <h2>Required Courses</h2>
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button
+                class="nav-link active"
+                id="nav-home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-home"
+                type="button"
+                role="tab"
+                aria-controls="nav-home"
+                aria-selected="true"
+              >
+                MS in Computer Science
+              </button>
+              <button
+                class="nav-link"
+                id="nav-profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-profile"
+                type="button"
+                role="tab"
+                aria-controls="nav-profile"
+                aria-selected="false"
+              >
+                MS in Information Security and Assurance
+              </button>
+              <button
+                class="nav-link"
+                id="nav-contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-contact"
+                type="button"
+                role="tab"
+                aria-controls="nav-contact"
+                aria-selected="false"
+              >
+                MS in Software Engineering
+              </button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="nav-home"
+              role="tabpanel"
+              aria-labelledby="nav-home-tab"
+            >
+              <table class="table caption-top">
+                <caption>
+                  List of Courses
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Course Name</th>
+                    <th scope="col">Course Number</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Database Systems</td>
+                    <td>CS 550</td>
+                  </tr>
+                  <tr>
+                    <td>Introduction to Artificial Intelligence</td>
+                    <td>CS 580</td>
+                  </tr>
+                  <tr>
+                    <td>Computer Communications and Networking</td>
+                    <td>CS 555</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="nav-profile"
+              role="tabpanel"
+              aria-labelledby="nav-profile-tab"
+            >
+              <table class="table caption-top">
+                <caption>
+                  List of Courses
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Course Name</th>
+                    <th scope="col">Course Number</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Security Audit and Compliance Testing</td>
+                    <td>ISA 652</td>
+                  </tr>
+                  <tr>
+                    <td>Security Protocol Analysis</td>
+                    <td>ISA 763</td>
+                  </tr>
+                  <tr>
+                    <td>Security Policy</td>
+                    <td>ISA 650</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="nav-contact"
+              role="tabpanel"
+              aria-labelledby="nav-contact-tab"
+            >
+              <div class="table-responsive">
+                <table class="table caption-top">
+                  <caption>
+                    List of Courses
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Course Name</th>
+                      <th scope="col">Course Number</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Software Testing</td>
+                      <td>SWE 637</td>
+                    </tr>
+                    <tr>
+                      <td>User Interface Design and Development</td>
+                      <td>SWE 632</td>
+                    </tr>
+                    <tr>
+                      <td>Software Design and Architecture</td>
+                      <td>SWE 621</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="mt-4"></footer>
+
+        <div class="text-center">
+          <a href="./survey.html" class="btn btn-warning">Take Our Survey</a>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
+</html>
